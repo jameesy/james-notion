@@ -34,7 +34,7 @@ const blog = ({ postsToShow, page, showNext }) => {
                 <a href="https://askattest.com">Attest</a>
                 .
               </h2>
-              <h2 className='"text-md md:text-md mb-2 leading-7 text-black dark:text-gray-100"'>
+              <h2 className="text-md md:text-md mb-2 leading-7 text-black dark:text-gray-100">
                 In the past I have worked in the Engineering Leadership team at {' '}
                 <a href="https://monzo.com">Monzo</a>,
                 as well as having a number of years of experience as a Frontend Engineer. I enjoy 

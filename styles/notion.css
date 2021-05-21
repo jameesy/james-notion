@@ -16,7 +16,7 @@
   @apply leading-7;
   @apply p-0;
   @apply my-3;
-  @apply text-black;
+  @apply text-black dark:text-white;
 }
 
 .notion-page-link {
