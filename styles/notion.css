@@ -1,16 +1,17 @@
 /* NOTION CSS OVERRIDE */
 
 .notion {
-  @apply text-gray-600 dark:text-gray-300;
+  @apply text-gray-500 dark:text-gray-300;
   overflow-wrap: break-word;
 }
 .notion,
 .notion-text,
 .notion-quote,
 .notion-h-title {
-  @apply leading-8;
+  @apply leading-7;
   @apply p-0;
   @apply my-3;
+  @apply text-black;
 }
 .notion-page-link {
   color: inherit;

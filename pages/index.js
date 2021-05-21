@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Container from '@/components/Container'
 import BlogPost from '@/components/BlogPost'
 import Pagination from '@/components/Pagination'
@@ -25,6 +26,23 @@ export async function getStaticProps() {
 const blog = ({ postsToShow, page, showNext }) => {
   return (
     <Container title={BLOG.title} description={BLOG.description}>
+      <div className="space-y-16 mb-16 md:space-y-24 ">
+          <div className="space-y-8 md:items-center">
+            <div className="prose lg:prose-lg text-primary">
+              <h2 className="text-lg leading-7 md:text-lg font-bold mb-2 text-black dark:text-gray-100">
+                Hey, I&apos;m James I&apos;m an Engineering Leader, currently working at {' '}
+                <a href="https://askattest.com">Attest</a>
+                .
+              </h2>
+              <h2 className='"text-md md:text-md mb-2 leading-7 text-black dark:text-gray-100"'>
+                In the past I have worked in the Engineering Leadership team at {' '}
+                <a href="https://monzo.com">Monzo</a>,
+                as well as having a number of years of experience as a Frontend Engineer. I enjoy 
+                writing, as well as eating food.
+              </h2>
+            </div>
+          </div>
+        </div>
       {postsToShow.map(post => (
         <BlogPost key={post.id} post={post} />
       ))}
