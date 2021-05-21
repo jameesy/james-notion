@@ -45,7 +45,7 @@ const DefaultLayout = ({ children, blockMap, frontMatter, emailHash }) => {
       type="article"
     >
       <article>
-        <h1 className="font-bold text-3xl text-gray-500 dark:text-white">
+        <h1 className="font-bold text-3xl text-black dark:text-white">
           {frontMatter.title}
         </h1>
         {frontMatter.type[0] !== 'Page' && (
