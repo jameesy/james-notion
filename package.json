@@ -39,6 +39,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-tailwind": "^0.2.1",
     "postcss": "^8.2.15",
     "prettier": "^2.3.0",
     "tailwindcss": "^2.1.2"
