@@ -42,7 +42,7 @@ const blog = ({ postsToShow, page, showNext }) => {
             </div>
           </div>
         </div>
-      <h2 className="text-lg leading-7 md:text-lg font-bold mb-6 text-black dark:text-gray-100">My Writing</h2>
+      <h2 className="text-lg leading-7 mb-6 md:text-lg font-bold text-black dark:text-gray-100">My Writing</h2>
       {postsToShow.map(post => (
         <BlogPost key={post.id} post={post} />
       ))}
