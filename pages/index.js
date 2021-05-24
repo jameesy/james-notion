@@ -30,14 +30,15 @@ const blog = ({ postsToShow, page, showNext }) => {
           <div className="space-y-8 md:items-center">
             <div className="prose lg:prose-lg text-primary">
               <h2 className="text-lg leading-7 md:text-lg font-bold mb-2 text-black dark:text-gray-100">
-                Hey friends &mdash; I&apos;m James I&apos;m an Engineering Leader, writer and minimalist.
+                Hey friends &mdash; I&apos;m James. I&apos;m a software engineer and minimalist.
               </h2>
               <p className="mb-2 leading-7 text-black dark:text-gray-100">
-                Currently I work at {' '}
+                Currently I work as an Engineering Manager at {' '}
                 <a className="px-0.5 -mx-0.5 py-0.5 font-bold no-underline bg-yellow-400 rounded-sm dark:bg-gray-100 dark:bg-opacity-20 text-gray-1000 dark:text-gray-300 bg-opacity-20 md:hover:bg-opacity-30 md:dark:hover:bg-yellow-500 md:dark:hover:bg-opacity-100 md:dark:hover:text-gray-1000 break-words;" href="https://askattest.com">Attest</a>,
                 and in the past I have worked in the Engineering Leadership team at {' '}
-                <a className="px-0.5 -mx-0.5 py-0.5 font-bold no-underline bg-yellow-400 rounded-sm dark:bg-gray-100 dark:bg-opacity-20 text-gray-1000 dark:text-gray-300 bg-opacity-20 md:hover:bg-opacity-30 md:dark:hover:bg-yellow-500 md:dark:hover:bg-opacity-100 md:dark:hover:text-gray-1000 break-words;" href="https://monzo.com">Monzo</a>,
-                as well as having a number of years of experience as a Frontend Engineer at various companies. 
+                <a className="px-0.5 -mx-0.5 py-0.5 font-bold no-underline bg-yellow-400 rounded-sm dark:bg-gray-100 dark:bg-opacity-20 text-gray-1000 dark:text-gray-300 bg-opacity-20 md:hover:bg-opacity-30 md:dark:hover:bg-yellow-500 md:dark:hover:bg-opacity-100 md:dark:hover:text-gray-1000 break-words;" href="https://monzo.com">Monzo</a>.
+                My professional focus is enabling the career progression of engineers, as well as building
+                diverse, scalable and autonomous engineering teams.
               </p>
             </div>
           </div>
