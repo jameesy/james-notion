@@ -11,10 +11,10 @@ const Tags = ({ tags, currentTag }) => {
             <Link key={key} href={selected ? '/search' : `/tag/${encodeURIComponent(key)}`}>
               <a>
                 <li
-                  className={`mr-3 py-2 font-medium border px-4 whitespace-nowrap dark:text-gray-300 ${
+                  className={`mr-3 py-2 font-sm border px-4 whitespace-nowrap dark:text-gray-300 ${
                     selected
-                      ? 'text-white bg-black border-black dark:bg-gray-600 dark:border-gray-600'
-                      : 'bg-gray-100 border-gray-100 text-gray-400 dark:bg-night dark:border-gray-800'
+                      ? 'text-white bg-black border-black dark:bg-gray-600 dark:border-white'
+                      : 'bg-white border-black border-2 text-black dark:bg-night dark:border-gray-800'
                   }`}
                 >
                   {`${key} (${tags[key]})`}

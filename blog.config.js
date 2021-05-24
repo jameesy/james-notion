@@ -1,6 +1,6 @@
 const BLOG = {
   title: 'James Bedford',
-  author: 'James',
+  author: 'James Bedford',
   email: 'hey@jame.es',
   link: 'https://james-notion.vercel.app',
   description: 'Engineering Manager.',

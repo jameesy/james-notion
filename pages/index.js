@@ -34,9 +34,9 @@ const blog = ({ postsToShow, page, showNext }) => {
               </h2>
               <p className="mb-2 leading-7 text-gray-500 dark:text-gray-300">
                 Currently I work as an Engineering Manager at {' '}
-                <a className="px-0.5 -mx-0.5 py-0.5 font-bold no-underline bg-yellow-400 rounded-sm dark:bg-gray-100 dark:bg-opacity-20 text-gray-1000 dark:text-gray-300 bg-opacity-20 md:hover:bg-opacity-30 md:dark:hover:bg-yellow-500 md:dark:hover:bg-opacity-100 md:dark:hover:text-gray-1000 break-words;" href="https://askattest.com">Attest</a>,
+                <a className="px-0.5 -mx-0.5 font-bold rounded-sm text-gray-1000 dark:text-gray-300 hover:underline break-words;" href="https://askattest.com">Attest</a>,
                 and in the past I have worked in the Engineering Leadership team at {' '}
-                <a className="px-0.5 -mx-0.5 py-0.5 font-bold no-underline bg-yellow-400 rounded-sm dark:bg-gray-100 dark:bg-opacity-20 text-gray-1000 dark:text-gray-300 bg-opacity-20 md:hover:bg-opacity-30 md:dark:hover:bg-yellow-500 md:dark:hover:bg-opacity-100 md:dark:hover:text-gray-1000 break-words;" href="https://monzo.com">Monzo</a>.
+                <a className="px-0.5 -mx-0.5 font-bold rounded-sm text-gray-1000 dark:text-gray-300 hover:underline break-words;" href="https://monzo.com">Monzo</a>.
                 My professional focus is enabling the career progression of engineers, as well as building
                 diverse, scalable and autonomous engineering teams.
               </p>
