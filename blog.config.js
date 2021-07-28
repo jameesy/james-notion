@@ -3,7 +3,7 @@ const BLOG = {
   author: 'James Bedford',
   email: 'hey@jame.es',
   link: 'https://james-notion.vercel.app',
-  description: 'Engineering Manager.',
+  description: 'Engineering Manager',
   lang: 'en-US',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
