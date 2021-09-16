@@ -56,7 +56,7 @@ const DefaultLayout = ({ children, blockMap, frontMatter, emailHash }) => {
                   alt={BLOG.author}
                   width={24}
                   height={24}
-                  src={`https://pbs.twimg.com/profile_images/1405819400402448384/KCfC-Zyx_400x400.jpg`}
+                  src={`https://pbs.twimg.com/profile_images/1429688380699389962/3m3gR2TW_400x400.jpg`}
                   className="rounded-full"
                 />
                 <p className="ml-2 md:block">{BLOG.author}</p>
